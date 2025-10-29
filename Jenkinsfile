@@ -26,7 +26,7 @@ pipeline {
         stage('Deploy') {
             steps {
                 echo 'Deploying the project...'
-                sh 'echo "Deployed successfully!" > /tmp/deploy.txt'
+                sh 'echo "Deployed successfully!"'
             }
         }
     }
@@ -40,3 +40,4 @@ pipeline {
         }
     }
 }
+
